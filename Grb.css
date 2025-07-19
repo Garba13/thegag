@@ -16,12 +16,12 @@ span {
    font-size:20px;
     text-align: center;
     border-radius: 1000px;
-    padding: 20px;
-    margin-bottom:15px;
+    padding: 10px;
+    margin-bottom:20px;
 }
 label {
     font-style:italic;
-     display : block;
+     display: block;
       margin-top:10px;
       font-size:20px; 
       
