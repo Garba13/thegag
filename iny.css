@@ -1,0 +1,73 @@
+
+  
+body{
+    background: #ab94b2;
+    text-align: center ;
+}
+
+p{
+    background: #645768;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 50px;
+}
+#videocontener{
+    display : none;
+    margin: 10px;
+}
+button {
+    background: #331554;
+    padding: 10px;
+    margin: 10px;
+    color: skyblue ;
+    font-size:30px;
+}
+#prg{
+    right :0;
+    background: #4751ab;
+    color: #2bffd5b0;
+    margin: 10px;
+    padding: 20px;
+    position : absolute ;
+    width:150px ;
+    height: 10px;
+    animation :prmv 5s infinite ;
+}
+@keyframes prmv{
+    50%{right:200px;}
+}
+h2{
+    color: #155e7dbd;
+    font-size:40px;
+    animation :mv 4s infinite;
+}
+@keyframes mv{
+    50%{color: white;}
+}
+video {
+    background: #24516bf5;
+    outline:10px solid aqua ;
+    animation :mymv 4s infinite ;
+}
+@keyframes mymv{
+    50%{outline-color: blue;}
+}
+header {
+    background-color: black;
+    padding: 1rem;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    li {
+       display: inline-block;
+       justify-content: space-between;
+       margin-left: 10px;
+    }
+
+ 

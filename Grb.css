@@ -1,0 +1,126 @@
+body{
+    background: #cac2a8f7;
+    text-align: center ;
+    font-style: Normal;
+}
+h1,h3{
+   font-style:italic;
+   font-size:20px;
+   border-radius:20px;
+   background : #8da994ad;
+   padding :7px;
+   text-align: center ;
+}
+ span{
+    background: #724c43ce;
+   font-size:20px;
+    text-align: center;
+    border-radius: 1000px;
+    padding: 10px;
+    margin-bottom:20px;
+}
+label {
+    font-style:italic;
+     display : block;
+      margin-top:10px;
+      font-size:20px; 
+      
+}
+input {
+    background:#5d594e20;
+    padding: 5px;
+    border-radius: 1000px;
+}
+#the{
+    background: #5c7e9ecd;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top:15px;
+}
+#day{
+    color: #5d594efc;
+    border-radius: 1000px;
+}
+#clr {
+     background:#00000069;
+     text-align: center ;
+     border-radius:10px;
+     padding: 20px;
+     bottom: 5px;
+     margin-top:2px;
+      }
+ input[type="submit"] {
+      width: auto;
+      padding: 15px;
+      margin-top: 0px;
+      background-color: steelblue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+ }    
+    @keyframes slideRight {
+      from { transform: translateX(7); }
+      to { transform: translateX(50px); }
+    }
+    .animated-box {
+      animation: slideRight 3s infinite alternate;
+      background-color: #8da994ad;
+      padding: 15px;
+      margin-top: 15px;
+  }
+ #mybutton{
+      font-size: 2rem;
+      }
+   #videoContainer {
+      display: none; 
+      margin-top: 10px;
+      }
+    video {
+      width: 80%;
+      max-width: 300px;
+      }
+    button {
+        padding: 10px;
+        margin-top:10px ;
+        border-radius: 100px;
+        background: #724c43ce;
+        font-size:20px ;
+        }
+    audio {
+        background-color:#724c43ce;
+       padding: 10px;
+       margin: 10px;
+       text-align: center ;
+       }
+    video {
+        background:#724c43ce ;
+        padding: 20px;
+        margin: 5px;
+        }
+    #content {
+      display: none;
+      padding: 25px;
+      background: #202020bc;
+      border: 1px solid #ccc;
+      text-align: center;
+      }
+   #open{
+       display:none;
+   } 
+   header {
+    background-color: black;
+    padding: 1rem;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    li {
+       display: inline-block;
+       justify-content: space-between;
+       margin-left: 10px;
+    }
