@@ -11,13 +11,13 @@ h1,h3{
    padding :7px;
    text-align: center ;
 }
- {
+span {
     background: #724c43ce;
-   font-size:15px;
+   font-size:20px;
     text-align: center;
     border-radius: 1000px;
-    padding: 25px;
-    margin-bottom:20px;
+    padding: 20px;
+    margin-bottom:15px;
 }
 label {
     font-style:italic;
